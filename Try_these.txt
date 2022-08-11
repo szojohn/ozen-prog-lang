@@ -1,0 +1,120 @@
+
+
+try these:
+
+variable assignment - keyword: let
+    let a = 1
+    let b = "hi"
+    let c = 5.0
+    let d = 1 ^ 2
+    let e = 9 + 2
+    let f = 21 - 1
+    let g = 20 * 2
+    let h = 10 / 2
+    let i = "hi " + "hello"
+    let j = 10 % 3
+
+if expressions - keywords: if, consider(counterpart of elif or else if), last(counterpart of else), do(counterpart of ':', '{}'), print() (built-in function that prints its argument), ;(newline)
+    if 5 == 5 do print(5)
+    if 7 == 5 do print(7) last print(6)
+    if 6 == 5 do; print("hi") consider 7 == 5 do; print("hello") last print("hi hello")
+    if 5 >= 5 do; print("hi"); if 6 != 5 do; print("world") consider 7 == 5 do; print("hello")
+    
+    != (not equal)
+    if 5 != 5 do; print(5) consider 6 != 5 do; print(6)
+
+    >, >=, <, <= (greater than, greater than equal, less than, less than equal)
+    if 5 >= 5 do; print("hi"); if 6 != 5 do; print("world") consider 7 == 5 do; print("hello")
+
+loop expressions - keywords: for, to, change, do, while, end(used with ';' used to end the loop)
+    for i = 1 to 9 do; print(i + 2) end
+    for i = 1 to 9 do; print(i + 3) end
+    for i = 1 to 9 change 2 do print(i)
+    for i = 1 to 9 change 2 do; print(i) end
+    for i = 1 to 9 change 2 do; if i % 2 == 1 do; print(i) last print(i + 10) end
+
+    let a = 0; while a < 5 do; print(a); let a = a + 1 end
+
+function expressions - keywords: func, ',' , '>>'
+    func pls(a, b) >> if 5 == 5 do; print(a) last print(b)
+        sample call function pls:
+            pls("hello world", "hi world")      some statements using the prog. lang., when ran, return 0
+    
+    recursion
+    func recurse(a) >> if a < 5 do; print(a); recurse(a + 1) last print("Done")
+
+lists (arrays)
+    let a = [0, 1, 2, 3]
+    let b = [4, 5, 6, 7]
+
+    a + 1       adding an element
+    a * b       concatenate
+    a / 0       get element 0 (first element)
+    b / 1       get element 1 (second element)
+
+built-in functions
+
+0 - false
+1 - true
+
+print(a)         displays the value in the parameter
+print("hello world")
+
+return_print(a)  displays and returns the value in the parameter
+let a = return_print("hello")
+
+user_in()       takes string input
+let a = user_in()
+
+num_user_in()   takes int input
+let a = num_user_in()
+
+clear() or cls()
+
+is_num(num)    returns true(1) if the argument is a number(int or float)
+
+is_string(string)     returns true(1) if the argument is a string
+
+is_list(list)       returns true(1) if the argument is a list
+
+is_func(func)          returns true(1) if the argument is a function
+
+pop(list, index)        removes an element in the list
+
+append(list, value)     adds an element in the list (placed in last index)
+
+length(list)            returns the number of elements in the list
+
+incr(num)               adds one to the argument                
+
+decr(num)               decreases one to the argument           
+
+to_int(a)               returns an int value of the argument
+
+to_float(a)             returns a float value of the argument
+
+to_string(a)            returns a string value of the argument.
+
+return
+func test(); let a = 5; return a; end
+
+continue and break
+for i = 0 to 10 do; if i == 4 do continue consider i == 8 do break; print(i); end
+
+# comment
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+

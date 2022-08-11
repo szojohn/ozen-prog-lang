@@ -1,0 +1,26 @@
+# comment
+
+print("Calculator")
+
+print("Enter the operation to be used: ")
+print("type 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division")
+
+let a = num_user_in()
+
+print("Enter the first number: ")
+
+let b = num_user_in()
+
+print("Enter the second number: ")
+
+let c = num_user_in()
+
+if a == 1 do
+    let d = b + c
+    print(d) consider a == 2 do
+        let d = b - c
+        print(d) consider a == 3 do
+            let d = b * c
+            print(d) consider a == 4 do
+                let d = b / c
+                print(d) last print("Not in the choices")
